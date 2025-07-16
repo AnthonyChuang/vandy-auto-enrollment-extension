@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Vandy Waitlist Auto-Selector",
+    "version": "1.2",
+    "description": "Automatically selects 'Waitlist If Full' and allows manual trigger.",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://more.app.vanderbilt.edu/more/SearchClasses!input.action*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
