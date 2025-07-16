@@ -1,7 +1,5 @@
 # vandy-auto-enrollment-extension
 
-# vandy-auto-enrollment-extension
-
 A Chrome Extension that automatically selects "Waitlist If Full" for all available class dropdowns during enrollment on Vanderbilt University's YES (Your Enrollment Services) portal.
 
 ## Features
